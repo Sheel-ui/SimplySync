@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# SimplySync
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SimplySync is a platform designed to tackle the challenges students encounter when finding suitable teammates for university projects. Traditional methods of team formation often lead to mismatched skill sets and lack of cohesion among team members, resulting in inefficiencies and suboptimal project outcomes. In response to these issues, SimplySync aims to streamline and enhance the team formation process for students, enabling meaningful connections among like-minded collaborators.
 
-## Available Scripts
+## Overview of the Solution
 
-In the project directory, you can run:
+The platform simplifies team creation by offering core functionalities such as:
 
-### `npm start`
+- **Home:** Featuring user posts and suggested collaborators, this page serves as a central hub for project advertisements and team formation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Profile:** A comprehensive user profile page with easy editing capabilities, providing detailed information about each user.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Chats:** A messaging platform for direct communication, facilitating easy collaboration and project coordination.
 
-### `npm test`
+- **Search:** An exploration feature that allows users to search for potential project partners based on various criteria.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframes
 
-### `npm run build`
+Below are wireframes for key sections of the project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Landing Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Landing Page Wireframe](./wireframes/landing.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Home Page
 
-### `npm run eject`
+![Home Page Wireframe](./wireframes/home.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Profile Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Profile Page Wireframe](./wireframes/profile.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Chats Page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Chats Page Wireframe](./wireframes/chat.png)
 
-## Learn More
+#### Search Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Search Page Wireframe](./wireframes/search.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore the visual representation of our project's design and structure.
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For questions, feedback, or collaboration opportunities, feel free to reach out to us at sheeltaskar64@gmail.com.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** UI concept in React is under development.
