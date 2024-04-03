@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+}
+
+.board {
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
