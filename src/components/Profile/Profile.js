@@ -100,13 +100,15 @@ const Profile = ( {id} ) => {
                 </div>
                 <div className="box box6">
                 <div className="small-text pl-10 pt-10">{user.resume.lastUpdate}</div>
-                        <div className="pl-10 pt-10 resume-block">
-                            <b>{user.resume.name}</b>
-                            <div className="pr-10">                            
-                                <FontAwesomeIcon className="search-icon" icon={faEye} />
-                                <FontAwesomeIcon className="search-icon" icon={faDownload} />
-                            </div>
+                <a href={user.resume.url}target="_blank" rel="noopener noreferrer">
+                    <div className="pl-10 pt-10 resume-block">
+                        <b>{user.resume.name}</b>
+                        <div className="pr-10">                            
+                            <FontAwesomeIcon className="search-icon" icon={faEye} />
+                            <FontAwesomeIcon className="search-icon" icon={faDownload} />
                         </div>
+                    </div>
+                </a>
                 </div>
         </div>
      );
