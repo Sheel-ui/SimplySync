@@ -16,9 +16,13 @@
   font-size: 11px;
 }
 
+.pad {
+  padding: 10px;
+}
+
 .medium-text {
   font-size: 13px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 
@@ -45,6 +49,7 @@
     grid-column: span 5;
     grid-row: span 3;
     overflow: auto;
+    padding: 0px 10px;
 }
   
 .box3 {
@@ -64,6 +69,7 @@
     grid-column: span 5;
     grid-row: span 3;
     overflow: auto;
+    padding: 0px 10px;
 }
 
 .box6 {
@@ -119,10 +125,35 @@
 .top-skills {
     display: flex;
     justify-content: space-around;
-    /* padding: 0px 20px; */
+    padding: 0px 10px;
+    font-size: 10px;
 }
 
 .skill-icon {
     font-size: 20px;
     padding: 10px 0px;
+}
+
+.company-head{
+  display: flex;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.org-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.org-info {
+  border-bottom: solid 1px rgb(70,70,70);
 }

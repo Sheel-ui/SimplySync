@@ -14,12 +14,12 @@ const List = ({ onUserClick }) => {
             {
                 users.map((user)=>(
                     <div className="list-item" onClick={() => handleUserClick(user.id)} >
-                    <div className="list-pic"></div>
-                    <div className="pl-10">
-                    <div className="name pt-10"><b>{user.name}</b></div>
-                    <div className="small-text">{user.caption}</div>
+                        <div className="list-pic"></div>
+                        <div className="pl-10">
+                        <div className="name pt-10"><b>{user.name}</b></div>
+                        <div className="small-text">{user.caption}</div>
                     </div>
-                </div>
+                    </div>
                 ))
             }
         </div>
