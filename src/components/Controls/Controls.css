@@ -1,0 +1,43 @@
+.Controls{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.search-form{
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.search{
+    background-color: rgb(30,30,30);
+    padding: 10px;
+    padding-left: 25px;
+    width: 50%;
+    border-radius: 20px;
+    color: rgb(130,130,130);
+}
+
+.search-icon{
+    padding-right: 10px;
+}
+
+.filters{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.filter{
+    background-color: rgb(35,35,35);
+    padding: 3px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.down-icon {
+    padding-left: 10px;
+}

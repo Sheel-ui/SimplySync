@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap');
+
+.Navbar {
+    height: 100vh;
+    border-right: solid 1px rgb(40,40,40);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.navitem {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.icon {
+    padding-right: 8%;
+    padding-bottom: 1px;
+}
+
+.title{
+    font: 3rem Cookie;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.bottom{
+    margin-top: 140px;
+}
