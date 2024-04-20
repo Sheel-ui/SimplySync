@@ -1,5 +1,7 @@
 .ListSearch{
     display: flex;
     padding: 20px;
+    width: 110%;
+    padding-top: 170px;
     padding-left: 40px;
 }
