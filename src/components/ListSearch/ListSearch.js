@@ -13,7 +13,7 @@ const ListSearch = () => {
     return ( 
         <div className="ListSearch">
             <List onUserClick={handleUserClick}></List>
-            <Profile id={userId}></Profile>
+            <Profile id={userId} showIcon={false}></Profile>
         </div>
      );
 }

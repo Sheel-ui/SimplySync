@@ -9,6 +9,7 @@
     grid-template-rows: repeat(6, 1fr);
     gap: 20px; 
     margin: 0;
+    position: relative;
   }
 
 
@@ -156,4 +157,19 @@
 
 .org-info {
   border-bottom: solid 1px rgb(70,70,70);
+}
+
+.x-mark{
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  margin-top: 7px; /* Adjust as needed to provide some space from the top */
+  margin-right: 7px;
+  font-size: 16px; 
+  transition: transform 1s ease; /* Add a transition effect */
+}
+
+.x-mark:hover {
+  transform: rotate(360deg); /* Rotate the icon 360 degrees on hover */
 }

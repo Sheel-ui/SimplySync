@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Controls from './components/Controls/Controls';
 import ListSearch from './components/ListSearch/ListSearch';
 import GridSearch from './components/GridSearch/GridSearch';
+import Carousel from './components/Carousel/Carousel';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <GridSearch></GridSearch>
+            </Route>
+            <Route exact path='/carousel'>
+              <Carousel></Carousel>
             </Route>
             <Route exact path='/list'>
               <ListSearch></ListSearch>

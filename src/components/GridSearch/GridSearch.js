@@ -1,7 +1,21 @@
 import './GridSearch.css'
+import { useState } from 'react';
 import jsonData from '../../data.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faReact, faNode, faJs, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Profile from '../Profile/Profile';
+
+
+const Popup = ({ userId, onClose }) => {
+  
+    return (
+      <div className="popup-overlay">
+        <div className="popup-content">
+          <Profile id={userId} showIcon={true} onClose={onClose} /> 
+        </div>
+      </div>
+    );
+  } 
 
 const GridSearch = () => {
     const {data:users} =  jsonData;
@@ -14,19 +28,23 @@ const GridSearch = () => {
         "faGithub": faGithub
     }
 
-    // const LimitedBio = ({ bio }) => {
-    //     return (
-    //         <div className="medium-text pt-10 pl-10">
-    //             {bio.length > 100 ? bio.substring(0, 600) + "..." : bio}
-    //         </div>
-    //     );
-    // }
+    const [showPopup, setShowPopup] = useState(false);
+    const [selectedUserId, setSelectedUserId] = useState(null);
+    const openPopup = (userId) => {
+        setSelectedUserId(userId); // Set the selected user ID
+        setShowPopup(true);
+    }
+    
+    const closePopup = () => {
+        setSelectedUserId(null); // Reset the selected user ID
+        setShowPopup(false);
+    }
 
     return ( 
         <div className="GridSearch">
             {
                 users.map((user)=>(
-                    <div className="grid" >
+                    <div className="grid" onClick={() => openPopup(user.id)} >
                         <div className="list-pic"></div>
                         <div className="pl-10 user-caption">
                             <div className="name pt-10"><b>{user.name}</b></div>
@@ -46,24 +64,13 @@ const GridSearch = () => {
 
                         <a href={user.resume.url}target="_blank" rel="noopener noreferrer">
                             <div className="pl-10 pt-10 pr-10 resume-block">
-                                <b>{user.resume.name}</b>
-                                <div className="pr-10">                            
-                                    {/* <FontAwesomeIcon className="search-icon" icon={faEye} /> */}
-                                </div>
+                                {user.resume.name}
                             </div>
                         </a>
-{/*                         
-                        {
-                            user.projects.map((project)=>(
-                                <>
-                            ))
-                        } */}
-                        {/* <div className='card-bio'>
-                            <LimitedBio bio={user.bio} />
-                        </div> */}
                     </div>
                 ))
             }
+        {showPopup && <Popup userId={selectedUserId} onClose={closePopup} />}
         </div>
      );
 }

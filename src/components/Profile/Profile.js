@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faDownload, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faDownload, faBuilding, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faHtml5, faCss3, faReact, faNode, faJs, faGithub } from '@fortawesome/free-brands-svg-icons';
 import "./Profile.css"
 import jsonData from '../../data.json';
 
-const Profile = ( {id} ) => {
+const Profile = ( {id,showIcon,onClose} ) => {
     const {data:users} =  jsonData;
     const user = users[id];
     const skills = {
@@ -15,9 +15,14 @@ const Profile = ( {id} ) => {
         "faJs": faJs, 
         "faGithub": faGithub
     }
-
+    const handleIconClick = () => {
+        if (onClose) {
+            onClose();
+        }
+    };
     return ( 
         <div className="Profile">
+            {showIcon && <FontAwesomeIcon className='x-mark'   icon={faXmark} onClick={handleIconClick} />}
                 <div className="box box1">
                     <div className="pic"></div>
                     <div className="name pt-10"><b>{user.name}</b></div>
