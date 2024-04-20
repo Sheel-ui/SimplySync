@@ -19,15 +19,15 @@ function App() {
           <Controls />
           <Switch>
             <Route exact path='/'>
-              <GridSearch></GridSearch>
-            </Route>
-            <Route exact path='/carousel'>
-              <Carousel></Carousel>
-            </Route>
-            <Route exact path='/list'>
               <ListSearch></ListSearch>
             </Route>
-            <Route exact path='/landing'>
+            <Route path='/carousel'>
+              <Carousel></Carousel>
+            </Route>
+            <Route path='/grid'>
+              <GridSearch></GridSearch>
+            </Route>
+            <Route path='/landing'>
                 <Landing />
             </Route>
             <Route path='/login'>

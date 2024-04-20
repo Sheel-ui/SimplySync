@@ -11,14 +11,11 @@
 }
 
 .card{
-    height: 450px;
-    width: 350px;
+    height: 200px;
     border-radius: 10px;
     background-color: rgb(30,30,30);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex!important;
+    cursor: pointer;
 
 }
 .card-pic {
@@ -27,31 +24,85 @@
     border-radius: 50%;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  }
+}
 
-  .popup-overlay {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, 0.5); 
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    z-index: 1000;
-  }
+.popup-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  z-index: 1000;
+}
+
+
+.popup-content {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  z-index: 100000;
+  display: flex;
+}
   
-  
-  .popup-content {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    z-index: 100000;
-    display: flex;
-  }
-    
-  .close-icon {
-    font-size: 24px; 
-    display: flex;
-  }
+.close-icon {
+  font-size: 24px; 
+  display: flex;
+}
+
+.Carousel-title{
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.card-info{
+  margin: 10px 0px;
+  padding: 5px 10px;
+  width: 40%;
+  border-right: solid 1px rgb(70,70,70);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-bio{
+  margin: 10px 0px;
+  padding: 0px 15px;
+  height: 100%;
+  width: 60%;
+}
+
+.card-skills {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  margin-right: 20px;
+  padding: 5px 0px;
+}
+
+.card-resume {
+  display: flex;
+  align-items: center;
+}
+
+.card-detail {
+  height: 110px;
+  overflow: auto;
+}
+
+.card-bio-title{
+  position: sticky;
+}
+
+.bg-dark{
+  width: 100%;
+  background-color: rgb(30,30,30);
+}
