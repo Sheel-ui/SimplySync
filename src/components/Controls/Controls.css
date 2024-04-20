@@ -15,7 +15,7 @@
 }
 
 .search{
-    background-color: rgb(30,30,30);
+    background-color: rgb(45,45,45);
     padding: 10px;
     padding-left: 25px;
     width: 50%;
@@ -33,7 +33,7 @@
     padding-bottom: 20px;
 }
 .filter{
-    background-color: rgb(35,35,35);
+    background-color: rgb(45,45,45);
     padding: 3px;
     margin-left: 20px;
     border-radius: 20px;
@@ -43,4 +43,12 @@
 
 .down-icon {
     padding-left: 10px;
+}
+
+.view{
+    margin-left: 180px;
+}
+
+.view-icon{
+    margin: 0px 5px;
 }

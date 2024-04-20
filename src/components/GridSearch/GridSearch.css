@@ -12,7 +12,7 @@
 
 .grid {
     padding: 20px;
-    background-color: rgb(30,30,30);
+    background-color: rgb(45,45,45);
     display: flex;
     flex-direction: column;
     height: 220px;

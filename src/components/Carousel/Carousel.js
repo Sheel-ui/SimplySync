@@ -116,7 +116,7 @@ const Carousel = () => {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<div style={{ marginLeft: "15px" }}>
+										<div className="medium-text" style={{ marginLeft: "15px" }}>
 											<b>{user.resume.name}</b>
 										</div>
 									</a>
@@ -133,9 +133,9 @@ const Carousel = () => {
 				</Slider>
 			</div>
 			<div className="Carousel-item">
-				<div className="Carousel-title">People who have experience</div>
+				<div className="Carousel-title">People who are skilled in Javascript</div>
 				<Slider {...settings}>
-					{users.map((user) => (
+        {users.map((user) => (
 						<div
 							key={user.id}
 							className="card"
@@ -190,7 +190,7 @@ const Carousel = () => {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<div style={{ marginLeft: "15px" }}>
+										<div className="medium-text" style={{ marginLeft: "15px" }}>
 											<b>{user.resume.name}</b>
 										</div>
 									</a>

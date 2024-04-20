@@ -1,6 +1,7 @@
 import "./Controls.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faChevronDown, faStar, faLightbulb, faBook, faBriefcase, faGraduationCap, faFilter } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { faMagnifyingGlass, faChevronDown, faStar, faLightbulb, faBook, faBriefcase, faGraduationCap, faFilter, faList, faSquare, faFilm } from '@fortawesome/free-solid-svg-icons';
 const Controls = () => {
     return ( 
         <div className="Controls">
@@ -28,6 +29,11 @@ const Controls = () => {
                 <div className="filter">
                     <FontAwesomeIcon className="search-icon" icon={faFilter} />All Filters
                     <FontAwesomeIcon className="down-icon" icon={faChevronDown} /></div>
+                <div className="filter view">
+                    <Link to="/"><FontAwesomeIcon className="view-icon" icon={faList} /></Link> |
+                    <Link to="/grid"><FontAwesomeIcon className="view-icon" icon={faSquare} /></Link> |
+                    <Link to="/carousel"><FontAwesomeIcon className="view-icon" icon={faFilm} /></Link>
+                </div>
             </div>
         </div>
      );
