@@ -6,6 +6,7 @@ import Setup from './components/Setup/Setup';
 import Navbar from './components/Navbar/Navbar';
 import Controls from './components/Controls/Controls';
 import ListSearch from './components/ListSearch/ListSearch';
+import GridSearch from './components/GridSearch/GridSearch';
 
 function App() {
   return (
@@ -17,9 +18,12 @@ function App() {
           <Controls />
           <Switch>
             <Route exact path='/'>
+              <GridSearch></GridSearch>
+            </Route>
+            <Route exact path='/list'>
               <ListSearch></ListSearch>
             </Route>
-                <Route exact path='/landing'>
+            <Route exact path='/landing'>
                 <Landing />
             </Route>
             <Route path='/login'>

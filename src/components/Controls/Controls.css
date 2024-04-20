@@ -1,9 +1,11 @@
 .Controls{
     height: 20%;
-    width: 85%;
+    margin-left: 1px;
+    width: 84%;
     z-index: 9999;
     top: 0;
     position: fixed;
+    background-color: black;
 }
 
 .search-form{
