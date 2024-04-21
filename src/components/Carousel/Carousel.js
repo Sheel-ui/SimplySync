@@ -109,7 +109,7 @@ const Carousel = () => {
 								</div>
 								<div className="card-resume">
 									<div className="card-title">
-										<b>Resume:</b>
+										Resume:
 									</div>
 									<a
 										href={user.resume.url}
@@ -122,10 +122,10 @@ const Carousel = () => {
 									</a>
 								</div>
 								<div className="card-detail">
-									<div className="stick bg-dark card-title">
+									<div className="stick bg-dark card-title" style={{ marginRight: '0' }}>
 										<b>Bio:</b>
 									</div>
-									<div className="small-text">{user.bio}</div>
+									<div className="small-text" style={{ whiteSpace: 'pre-wrap', hyphens: 'auto' }}>{user.bio}</div>
 								</div>
 							</div>
 						</div>
@@ -196,10 +196,10 @@ const Carousel = () => {
 									</a>
 								</div>
 								<div className="card-detail">
-									<div className="stick bg-dark card-title">
+									<div className="stick bg-dark card-title" style={{ marginRight: '0' }}>
 										<b>Bio:</b>
 									</div>
-									<div className="small-text">{user.bio}</div>
+									<div className="small-text" style={{ whiteSpace: 'pre-wrap', hyphens: 'auto' }}>{user.bio}</div>
 								</div>
 							</div>
 						</div>
