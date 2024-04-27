@@ -2,18 +2,13 @@ import "./Carousel.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import jsonData from "../../data.json";
+import jsonData from "../../data/data.json";
 import React, { useState } from "react";
 import Profile from "../Profile/Profile";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faHtml5,
-	faCss3,
-	faReact,
-	faNode,
-	faJs,
-	faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+
+import Skill from "../Skill/skill";
 
 const Popup = ({ userId, onClose }) => {
 	return (
@@ -26,7 +21,7 @@ const Popup = ({ userId, onClose }) => {
 };
 
 const Carousel = () => {
-	const { data: users } = jsonData;
+	const { data: users} = jsonData;
 
 	const settings = {
 		dots: false,
@@ -34,15 +29,6 @@ const Carousel = () => {
 		speed: 500,
 		slidesToShow: 2,
 		slidesToScroll: 1,
-	};
-
-	const skills = {
-		faHtml5: faHtml5,
-		faCss3: faCss3,
-		faReact: faReact,
-		faNode: faNode,
-		faJs: faJs,
-		faGithub: faGithub,
 	};
 
 	const [showPopup, setShowPopup] = useState(false);
@@ -59,7 +45,7 @@ const Carousel = () => {
 	return (
 		<div className="Slide w-3/4 m-auto">
 			<div className="Carousel-item">
-				<div className="Carousel-title">People who have experience</div>
+				<div style={{padding: "15px"}}> People who have experience </div>
 				<Slider {...settings}>
 					{users.map((user) => (
 						<div
@@ -68,7 +54,12 @@ const Carousel = () => {
 							onClick={() => openPopup(user.id)}
 						>
 							<div className="card-info">
-								<div className="pic"></div>
+								<div
+									className="pic"
+									style={{
+										backgroundImage: `url(${user.profilePic}${user.gender}/${user.id}.jpg)`,
+									}}
+								></div>
 								<div
 									className="name"
 									style={{ paddingTop: "10px" }}
@@ -93,39 +84,42 @@ const Carousel = () => {
 									<div className="card-title">
 										<b>Top Skills:</b>
 									</div>
-									{user.skills.map((skill) => (
-										<div>
-											{skills[skill] && (
-												<FontAwesomeIcon
-													className="skill-icon"
-													icon={skills[skill]}
-													style={{
-														padding: "0px 5px",
-													}}
-												/>
-											)}
-										</div>
-									))}
+									<div style={{width: "65%"}}>
+										<Skill user={user}></Skill>
+									</div>
 								</div>
 								<div className="card-resume">
-									<div className="card-title">
-										Resume:
-									</div>
+									<div className="card-title">Resume:</div>
 									<a
 										href={user.resume.url}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<div className="medium-text" style={{ marginLeft: "15px" }}>
-											<b>{user.resume.name}</b>
+										<div
+											className="medium-text"
+											style={{ marginLeft: "25px" }}
+										>
+											<b style={{textDecoration: "underline"}}>{user.resume.name}</b>
+											<FontAwesomeIcon className="search-icon pl-10" icon={faDownload} />
 										</div>
 									</a>
 								</div>
 								<div className="card-detail">
-									<div className="stick bg-dark card-title" style={{ marginRight: '0' }}>
+									<div
+										className="stick bg-dark card-title"
+										style={{ marginRight: "0" }}
+									>
 										<b>Bio:</b>
 									</div>
-									<div className="small-text" style={{ whiteSpace: 'pre-wrap', hyphens: 'auto' }}>{user.bio}</div>
+									<div
+										className="small-text"
+										style={{
+											whiteSpace: "pre-wrap",
+											hyphens: "auto",
+										}}
+									>
+										{user.bio}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -133,16 +127,23 @@ const Carousel = () => {
 				</Slider>
 			</div>
 			<div className="Carousel-item">
-				<div className="Carousel-title">People who are skilled in Javascript</div>
+			<div style={{padding: "15px"}}>
+					People who are skilled in Javascript
+				</div>
 				<Slider {...settings}>
-        {users.map((user) => (
+					{users.map((user) => (
 						<div
 							key={user.id}
 							className="card"
 							onClick={() => openPopup(user.id)}
 						>
 							<div className="card-info">
-								<div className="pic"></div>
+								<div
+									className="pic"
+									style={{
+										backgroundImage: `url(${user.profilePic}${user.gender}/${user.id}.jpg)`,
+									}}
+								></div>
 								<div
 									className="name"
 									style={{ paddingTop: "10px" }}
@@ -163,23 +164,13 @@ const Carousel = () => {
 								</div>
 							</div>
 							<div className="card-bio">
-								<div className="card-skills">
+							<div className="card-skills">
 									<div className="card-title">
 										<b>Top Skills:</b>
 									</div>
-									{user.skills.map((skill) => (
-										<div>
-											{skills[skill] && (
-												<FontAwesomeIcon
-													className="skill-icon"
-													icon={skills[skill]}
-													style={{
-														padding: "0px 5px",
-													}}
-												/>
-											)}
-										</div>
-									))}
+									<div style={{width: "65%"}}>
+										<Skill user={user}></Skill>
+									</div>
 								</div>
 								<div className="card-resume">
 									<div className="card-title">
@@ -190,16 +181,31 @@ const Carousel = () => {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<div className="medium-text" style={{ marginLeft: "15px" }}>
-											<b>{user.resume.name}</b>
+										<div
+											className="medium-text"
+											style={{ marginLeft: "10px" }}
+										>
+											<b style={{textDecoration: "underline"}}>{user.resume.name}</b>
+											<FontAwesomeIcon className="search-icon pl-10" icon={faDownload} />
 										</div>
 									</a>
 								</div>
 								<div className="card-detail">
-									<div className="stick bg-dark card-title" style={{ marginRight: '0' }}>
+									<div
+										className="stick bg-dark card-title"
+										style={{ marginRight: "0" }}
+									>
 										<b>Bio:</b>
 									</div>
-									<div className="small-text" style={{ whiteSpace: 'pre-wrap', hyphens: 'auto' }}>{user.bio}</div>
+									<div
+										className="small-text"
+										style={{
+											whiteSpace: "pre-wrap",
+											hyphens: "auto",
+										}}
+									>
+										{user.bio}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -208,7 +214,7 @@ const Carousel = () => {
 			</div>
 			{showPopup && (
 				<Popup userId={selectedUserId} onClose={closePopup} />
-			)}
+			).reverse()}
 		</div>
 	);
 };

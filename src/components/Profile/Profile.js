@@ -1,20 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faDownload, faBuilding, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { faHtml5, faCss3, faReact, faNode, faJs, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import Skill from '../Skill/skill';
 import "./Profile.css"
-import jsonData from '../../data.json';
+import jsonData from '../../data/data.json'
 
 const Profile = ( {id,showIcon,onClose} ) => {
     const {data:users} =  jsonData;
     const user = users[id];
-    const skills = {
-        "faHtml5": faHtml5, 
-        "faCss3": faCss3, 
-        "faReact": faReact, 
-        "faNode": faNode, 
-        "faJs": faJs, 
-        "faGithub": faGithub
-    }
+    
     const handleIconClick = () => {
         if (onClose) {
             onClose();
@@ -24,7 +18,7 @@ const Profile = ( {id,showIcon,onClose} ) => {
         <div className="Profile">
             {showIcon && <FontAwesomeIcon className='x-mark'   icon={faXmark} onClick={handleIconClick} />}
                 <div className="box box1">
-                    <div className="pic"></div>
+                    <div className="pic" style={{ backgroundImage: `url(${user.profilePic}${user.gender}/${user.id}.jpg)`}}></div>
                     <div className="name pt-10"><b>{user.name}</b></div>
                     <div className="small-text">{user.year}</div>
                 </div>
@@ -93,21 +87,13 @@ const Profile = ( {id,showIcon,onClose} ) => {
                 </div>
                 <div className="box box4">
                     <div className="name pt-10 pl-10"><b>TOP SKILLS</b></div>
-                    <div className='top-skills'>
-                        {
-                            user.skills.map((skill)=>(
-                                <div>
-                                {skills[skill] && <FontAwesomeIcon className="skill-icon" icon={skills[skill]} />}
-                                </div>
-                            ))
-                        }
-                        </div>
+                    <Skill user={user}></Skill>
                 </div>
                 <div className="box box6">
                 <div className="small-text pl-10 pt-10">{user.resume.lastUpdate}</div>
                 <a href={user.resume.url}target="_blank" rel="noopener noreferrer">
-                    <div className="pl-10 pt-10 resume-block">
-                        <b>{user.resume.name}</b>
+                    <div className="pl-10 pt-10 resume-block medium-text">
+                        <b style={{textDecoration: "underline"}}>{user.resume.name}</b>
                         <div className="pr-10">                            
                             <FontAwesomeIcon className="search-icon" icon={faEye} />
                             <FontAwesomeIcon className="search-icon" icon={faDownload} />

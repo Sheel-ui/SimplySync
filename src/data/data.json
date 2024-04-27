@@ -1,0 +1,1157 @@
+
+{
+    "data": [
+		{
+			"id": 0,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Nikhil Patil",
+			"caption": "Ex-Fractal | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": "Passionate about merging design thinking with software development. My journey in technology is driven by a deep commitment to understanding user challenges and crafting intuitive solutions that not only solve problems but also delight users. With a focus on customer-centric design, I aim to transform complex issues into simple, effective software experiences. ",
+			"skills": ["faGolang", "faPython", "faReact", "faLinux", "faJs"],
+			"resume": {
+				"name": "nikhil_patil_resume",
+				"lastUpdate": "Last Updated: 04/10/2024 12:33:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Data Engineer",
+					"organization": "Fractal",
+					"date": "Jun 2021 - Nov 2022",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Delivered a AI powered product for Unilever to identify non-profitable SKUs in their portfolio across markets like EU, US, NAMET, AFRICA, ASIA, and LATAM saving approximately $85M in expenses.",
+						"Performed ETL using Azure Databricks, Python, py-spark, SQL, and scheduled notebooks in Azure Data Factory. Used Azure Synapse Analytics for big data and data warehousing solutions."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Fractal",
+					"date": "Sep 2020 - Jun 2021",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Researched user pain points in the legacy systems and improved engagement by working on more than 10 user stories.",
+						"Transformed the legacy system to a microservice architecture using Spring Boot and AWS resulting in a 40% boost in system availability."
+					]
+				},
+				{
+					"designation": "Mobile Development Intern",
+					"organization": "Ugam",
+					"date": "May 2019 - Jul 2019",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Built dashboarding screens using React-Native and Charts.js that focused on customer engagement and communicating concise insights. ",
+						"Implemented multi-threaded modules in Java Spring Boot, to concurrently fetch and process 10+ performance indicators using REST APIs reducing the time to render data from 1.3 sec to 0.5 sec."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Greedy Algorithms and Dynamic Programming",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "Data Structures · Algorithms · Python · Java",
+					"info": [
+						"Programming projects to solve peculiar problems constrained by time and space complexities",
+						"Performing analysis and comparative study between optimal and sub-optimal approaches via charts and graphs."
+					]
+				},
+				{
+					"name": "Disease Prediction using Machine Learning",
+					"date": "Jun 2018 - Aug 2018",
+					"tech": "Python · Machine Learning · Deep Learning",
+					"info": [
+						"This Machine Learning project is used to predict diseases based on the symptoms given by the user.",
+						"It predicts using three different machine learning algorithms.It uses tkinter for GUI.",
+						"The model harnesses an extensive array of 95 symptoms to accurately predict outcomes across 41 distinct diseases."
+					]
+				}
+			]
+		},
+		{
+			"id": 1,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Supril Singh",
+			"caption": "Ex-Coinbase | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": " I'm a results-driven Graduate Student passionate about solving complex challenges with innovative solutions. Currently pursuing my Master's at the University of Florida, I've navigated dynamic roles as a Senior Software Engineer at Coinbase, seamlessly transitioning to Data Scientist. My diverse background bridges development and data science, empowering teams with actionable insights. Eager to merge academic excellence with real-world experiences, I thrive on continuous learning and collaboration. ",
+			"skills": ["faNode", "faPython", "faHtml5", "faReact", "faJs"],
+			"resume": {
+				"name": "supril_singh_resume",
+				"lastUpdate": "Last Updated: 04/05/2024 03:47:52 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Senior Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jan 2022 - Dec 2022",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Worked on building automated pipelines for extracting, processing, embedding text data from 2 major SDLC platforms.",
+						"Used Java and Python to develop REST APIs to access the ML models, maintained postman collection and documented the APIs.",
+						"Implemented ML models for 4 use cases: Text Clustering, Correlation, Summarization and Semantic Search Engine."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jul 2021 - Dec 2021",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Designed Microservice Architecture, Database Schemas and developed REST APIs, wireframes as well as UI for the application.",
+						"Automated Swagger UI generation upon detecting changes in the Git repository, resulting in a 95% reduction in manual efforts.",
+						"Migrated on-premises application to the Cloud and setup CI/CD Pipeline, leading to a 30% decrease in deployment time."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Chatwave: Full Stack Web Application",
+					"date": "Aug 2024 - Present",
+					"tech": "MERN Stack · AWS · Terraform",
+					"info": [
+						"Actively developing a MERN full-stack social media platform on AWS, incorporating best practices like global error handling and logging and caching.",
+						"Implementing features such as infinite scrolling and messaging for an enhanced user experience.",
+						"Implementing Infrastructure as Code using Terraform, facilitating efficient environment management, and orchestrated a robust CI/CD pipeline, integrating Terraform seamlessly for continuous deployment."
+					]
+				},
+				{
+					"name": "Comment Generation for Source Code: VS Code Extension",
+					"date": "May 2023 - Aug 2023",
+					"tech": "Node.js · Flask",
+					"info": [
+						"VS Code extension to streamline comment generation for code files, with support for 6 languages, to generate informative comments that summarize the functionality and purpose of the code.",
+						"Wrote the extension in Node, which triggers an API request to any one of the 6 models hosted in flask, to generate comment."
+					]
+				},
+				{
+					"name": "GatorLibrary: Efficient Library Management System",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "C++ · Java · Data Structures",
+					"info": [
+						"Designed and implemented a library management system in C++ utilizing Heaps and Red-Black Trees to ensure efficient book tracking and patron management.",
+						"Applied Object-Oriented Programming principles to structure the project, incorporating features such as book borrowing, returning, ranged searches, and flip count tracking."
+					]
+				}
+			]
+		},
+        {
+            "id": 2,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "male",
+            "name": "Bob Johnson",
+            "caption": "Data Scientist | Data Analyst",
+            "year": "Sophomore",
+            "bio": "Passionate about extracting insights from data and leveraging them to drive business decisions.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+                "resume": {
+                "name": "bob_johnson_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "Data Analyst Intern",
+                    "organization": "Data Insights Co.",
+                    "date": "Mar 2024 - Jun 2024",
+                    "location": "Chicago, IL, USA",
+                    "info": [
+                        "Analyzed large datasets to identify trends and patterns for actionable insights.",
+                        "Created interactive dashboards and reports to communicate findings to stakeholders."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Customer Segmentation",
+                    "date": "Aug 2023 - Oct 2023",
+                    "tech": "Python · Pandas · Scikit-learn",
+                    "info": [
+                        "Performed customer segmentation analysis to identify target customer groups.",
+                        "Utilized clustering algorithms to group customers based on purchasing behavior."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "female",
+            "name": "Emily Brown",
+            "caption": "UX/UI Designer | Frontend Developer",
+            "year": "Freshman",
+            "bio": "Passionate about creating intuitive user experiences through thoughtful design and development.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+            "resume": {
+                "name": "emily_brown_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "UI/UX Design Intern",
+                    "organization": "Design Studio",
+                    "date": "May 2024 - Aug 2024",
+                    "location": "Los Angeles, CA, USA",
+                    "info": [
+                        "Collaborated with cross-functional teams to conceptualize and design user interfaces.",
+                        "Conducted user research and usability testing to iterate and improve design solutions."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Mobile App Redesign",
+                    "date": "Nov 2023 - Jan 2024",
+                    "tech": "Figma · Adobe XD",
+                    "info": [
+                        "Redesigned the user interface of a mobile app to improve usability and aesthetics.",
+                        "Implemented user feedback to enhance the overall user experience."
+                    ]
+                }
+            ]
+        },
+        {
+			"id": 4,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Harsh Reddy",
+			"caption": "Ex-Software Developer @ TCS · MSCS @ UF",
+			"year": "Grad 1st year",
+			"bio": "Experienced system engineer adept at crafting seamless integrations and optimizing complex systems. Skilled in software development, with a focus on backend solutions and client-centric approaches. Passionate about leveraging technology to drive efficiency and solve real-world challenges.",
+			"skills": ["faHtml5", "faCss3", "faJs", "faPhp", "faNode"],
+			"resume": {
+				"name": "harsh_reddy_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 01:37:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "System Engineer",
+					"organization": "Tata Consultancy Services",
+					"date": "Jan 2022 - Jun 2022",
+					"location": "Bangalore, KA, India",
+					"info": [
+						"As the Lead Software Developer in my team, I spearheaded a time-critical project focused on establishing a seamless connection between NASDAQ.",
+						"System Integration: Developed and optimized a utility tool to seamlessly connect NASDAQ and the Reserve Bank of India for the Clearing Corporation of India Project.",
+						"Database Expertise: Utilized Oracle Toad and Postgres databases to support daily financial market transactions"
+					]
+				},
+
+				{
+					"designation": "Associate System Engineer",
+					"organization": "Infosys",
+					"date": "Aug 2020 - Dec 2021",
+					"location": "Pune, MH , India",
+					"info": [
+						"Spearheaded the creation of efficient and responsive backend deployments tailored to client demands.",
+						"Engineered and executed the deployment of production servers, driving optimization of legacy code. This resulted in a substantial 5-billion-dollar boost in trade processing efficiency across 1600 trades."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Admission Portal Web Application",
+					"date": "Jan 2019 - Apr 2019",
+					"tech": "SQL · REST APIs · Model-View-Controller (MVC) · JavaFX",
+					"info": [
+						"Designed a web application to facilitate the admission of students to universities. Portal devises a merit list of students and assigns seats based on that.",
+						"Achieved high throughput on SQL server by handling assignments for over 1000 student records, across 10 universities."
+					]
+				},
+				{
+					"name": "Gossip Algorithm",
+					"date": "Nov 2023 - Dec 2023",
+					"tech": ".NET Framework · F# · Akka",
+					"info": [
+						"The algorithm measures the convergence time of gossip in a distributed network of nodes under different topologies like full, line, 2d, and 3d."
+					]
+				}
+			]
+		},
+        {
+			"id": 5,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Emily Johnson",
+			"caption": "Web Developer Intern | CS @ UF",
+			"year": "Senior",
+			"bio": "I am Emily Johnson, a dedicated software engineer fueled by a passion for crafting innovative solutions. Currently pursuing a Bachelor's in Computer Science and hands-on experience in full-stack development and machine learning, I thrive in dynamic tech environments. My journey is defined by a commitment to leveraging my expertise to tackle complex challenges and drive impactful change.",
+			"skills": ["faPython", "faKaggle", "faAws", "faLinux", "faJira"],
+			"resume": {
+				"name": "emily_johnson_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 11:44:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Data Insights Co.",
+					"date": "Mar 2023 - Aug 2023",
+					"location": "Chicago, IL, USA",
+					"info": [
+						"Performed Semantic Analysis on Spark SQL statements & optimized average query execution runtime by 15%.",
+						"Engineered a holistic web interface, enabling users to perform semantic analysis with more than 8 parameters."
+					]
+				},
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Prometheus",
+					"date": "Mar 2022 - Aug 2022",
+					"location": "San Francisco, CA, USA",
+					"info": [
+						"Orchestrated technical architecture (technology stack, data flow, database, deployment, REST APIs) of a Packaging Service.",
+						"Developed 20+ RESTful APIs for logging, regenerating, and approving data packages with metadata across 4 departments."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Aptitude Test Quiz App",
+					"date": "Jan 2022 - Apr 2022",
+					"tech": "Java · Android Studio · SQLite",
+					"info": [
+						"Built a user-friendly Android application with wide range of test questions across 4 test domains, featuring 3 difficulty levels for each domain enabling users to take timed tests, analyze their scores, and track their progress over time"
+					]
+				},
+				{
+					"name": "Stock Prediction Model",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "Python · Scikit-learn · Machine Learning",
+					"info": [
+						"Created a highly configurable analytic dashboard for researchers working on correlation of sentiment analysis and data analytics to predict stock market trends for over 30 companies."
+					]
+				}
+			]
+		},
+        {
+			"id": 6,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Jessica Thompson",
+			"caption": "Ex-SWE Intern @GS | University of Florida",
+			"year": "Senior",
+			"bio": "As a senior-year student, I am deeply passionate about delving into the realms of Natural Language Processing (NLP) and Machine Learning (ML) to tackle complex real-world challenges. With a keen interest in leveraging NLP algorithms and ML models, I am eager to embark on projects that explore the intersection of language understanding and intelligent systems. Armed with a solid foundation in computer science and a drive for innovation, I am poised to contribute my skills and knowledge to meaningful projects that push the boundaries of technology.",
+			"skills": ["faWordpress", "faUbuntu", "faSass", "faGit", "faJava"],
+			"resume": {
+				"name": "jessica_CV",
+				"lastUpdate": "Last Updated: 04/12/2024 07:16:41 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Engineering Summer Analyst",
+					"organization": "GS Associates",
+					"date": "Jun 2023 - Aug 2023",
+					"location": "Dallas, TX, USA",
+					"info": [
+						"Finding systematic ways to identify and trace outliers in Liquidity Coverage Ratio data.",
+						"Evaluated statistical methods like Z-Score, Isolation Forest and Interquartile Range to find the best fit for financial data."
+					]
+				},
+				{
+					"designation": "Computer Vision Intern",
+					"organization": "Freelance",
+					"date": "Oct 2021 - May 2022",
+					"location": "Remote",
+					"info": [
+						"Video analytics for real time feed.",
+						"Implemented analytics code on docker containers.",
+						"Worked on hosting models on Triton Inference Server."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Sepsis project",
+					"date": "Feb 2021 - Oct 2021",
+					"tech": "NLP · SVM · Machine Learning · Deep Learning",
+					"info": [
+						"Trend analysis and link prediction on original dataset of around 110K entries.",
+						"Integrated Federated Healthcare Platform: Topic modelling on original dataset. Worked on NER and keyword based search."
+					]
+				},
+				{
+					"name": "Text to SQL",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "SQL · NLP · React",
+					"info": [
+						"Focused on developing a text-to-SQL conversion system using state-of-the-art Natural Language Processing (NLP) techniques",
+						"This involved extensive data preprocessing, including tokenization and semantic analysis, as well as model training using advanced neural network architectures"
+					]
+				}
+			]
+		},
+        {
+			"id": 7,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Nikhil Patil",
+			"caption": "Ex-Fractal | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": "Passionate about merging design thinking with software development. My journey in technology is driven by a deep commitment to understanding user challenges and crafting intuitive solutions that not only solve problems but also delight users. With a focus on customer-centric design, I aim to transform complex issues into simple, effective software experiences. ",
+			"skills": ["faGolang", "faPython", "faReact", "faLinux", "faJs"],
+			"resume": {
+				"name": "nikhil_patil_resume",
+				"lastUpdate": "Last Updated: 04/10/2024 12:33:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Data Engineer",
+					"organization": "Fractal",
+					"date": "Jun 2021 - Nov 2022",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Delivered a AI powered product for Unilever to identify non-profitable SKUs in their portfolio across markets like EU, US, NAMET, AFRICA, ASIA, and LATAM saving approximately $85M in expenses.",
+						"Performed ETL using Azure Databricks, Python, py-spark, SQL, and scheduled notebooks in Azure Data Factory. Used Azure Synapse Analytics for big data and data warehousing solutions."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Fractal",
+					"date": "Sep 2020 - Jun 2021",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Researched user pain points in the legacy systems and improved engagement by working on more than 10 user stories.",
+						"Transformed the legacy system to a microservice architecture using Spring Boot and AWS resulting in a 40% boost in system availability."
+					]
+				},
+				{
+					"designation": "Mobile Development Intern",
+					"organization": "Ugam",
+					"date": "May 2019 - Jul 2019",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Built dashboarding screens using React-Native and Charts.js that focused on customer engagement and communicating concise insights. ",
+						"Implemented multi-threaded modules in Java Spring Boot, to concurrently fetch and process 10+ performance indicators using REST APIs reducing the time to render data from 1.3 sec to 0.5 sec."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Greedy Algorithms and Dynamic Programming",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "Data Structures · Algorithms · Python · Java",
+					"info": [
+						"Programming projects to solve peculiar problems constrained by time and space complexities",
+						"Performing analysis and comparative study between optimal and sub-optimal approaches via charts and graphs."
+					]
+				},
+				{
+					"name": "Disease Prediction using Machine Learning",
+					"date": "Jun 2018 - Aug 2018",
+					"tech": "Python · Machine Learning · Deep Learning",
+					"info": [
+						"This Machine Learning project is used to predict diseases based on the symptoms given by the user.",
+						"It predicts using three different machine learning algorithms.It uses tkinter for GUI.",
+						"The model harnesses an extensive array of 95 symptoms to accurately predict outcomes across 41 distinct diseases."
+					]
+				}
+			]
+		},
+		{
+			"id": 8,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Supril Singh",
+			"caption": "Ex-Coinbase | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": " I'm a results-driven Graduate Student passionate about solving complex challenges with innovative solutions. Currently pursuing my Master's at the University of Florida, I've navigated dynamic roles as a Senior Software Engineer at Coinbase, seamlessly transitioning to Data Scientist. My diverse background bridges development and data science, empowering teams with actionable insights. Eager to merge academic excellence with real-world experiences, I thrive on continuous learning and collaboration. ",
+			"skills": ["faNode", "faPython", "faHtml5", "faReact", "faJs"],
+			"resume": {
+				"name": "supril_singh_resume",
+				"lastUpdate": "Last Updated: 04/05/2024 03:47:52 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Senior Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jan 2022 - Dec 2022",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Worked on building automated pipelines for extracting, processing, embedding text data from 2 major SDLC platforms.",
+						"Used Java and Python to develop REST APIs to access the ML models, maintained postman collection and documented the APIs.",
+						"Implemented ML models for 4 use cases: Text Clustering, Correlation, Summarization and Semantic Search Engine."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jul 2021 - Dec 2021",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Designed Microservice Architecture, Database Schemas and developed REST APIs, wireframes as well as UI for the application.",
+						"Automated Swagger UI generation upon detecting changes in the Git repository, resulting in a 95% reduction in manual efforts.",
+						"Migrated on-premises application to the Cloud and setup CI/CD Pipeline, leading to a 30% decrease in deployment time."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Chatwave: Full Stack Web Application",
+					"date": "Aug 2024 - Present",
+					"tech": "MERN Stack · AWS · Terraform",
+					"info": [
+						"Actively developing a MERN full-stack social media platform on AWS, incorporating best practices like global error handling and logging and caching.",
+						"Implementing features such as infinite scrolling and messaging for an enhanced user experience.",
+						"Implementing Infrastructure as Code using Terraform, facilitating efficient environment management, and orchestrated a robust CI/CD pipeline, integrating Terraform seamlessly for continuous deployment."
+					]
+				},
+				{
+					"name": "Comment Generation for Source Code: VS Code Extension",
+					"date": "May 2023 - Aug 2023",
+					"tech": "Node.js · Flask",
+					"info": [
+						"VS Code extension to streamline comment generation for code files, with support for 6 languages, to generate informative comments that summarize the functionality and purpose of the code.",
+						"Wrote the extension in Node, which triggers an API request to any one of the 6 models hosted in flask, to generate comment."
+					]
+				},
+				{
+					"name": "GatorLibrary: Efficient Library Management System",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "C++ · Java · Data Structures",
+					"info": [
+						"Designed and implemented a library management system in C++ utilizing Heaps and Red-Black Trees to ensure efficient book tracking and patron management.",
+						"Applied Object-Oriented Programming principles to structure the project, incorporating features such as book borrowing, returning, ranged searches, and flip count tracking."
+					]
+				}
+			]
+		},
+        {
+            "id": 9,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "male",
+            "name": "Bob Johnson",
+            "caption": "Data Scientist | Data Analyst",
+            "year": "Sophomore",
+            "bio": "Passionate about extracting insights from data and leveraging them to drive business decisions.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+                "resume": {
+                "name": "bob_johnson_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "Data Analyst Intern",
+                    "organization": "Data Insights Co.",
+                    "date": "Mar 2024 - Jun 2024",
+                    "location": "Chicago, IL, USA",
+                    "info": [
+                        "Analyzed large datasets to identify trends and patterns for actionable insights.",
+                        "Created interactive dashboards and reports to communicate findings to stakeholders."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Customer Segmentation",
+                    "date": "Aug 2023 - Oct 2023",
+                    "tech": "Python · Pandas · Scikit-learn",
+                    "info": [
+                        "Performed customer segmentation analysis to identify target customer groups.",
+                        "Utilized clustering algorithms to group customers based on purchasing behavior."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "female",
+            "name": "Emily Brown",
+            "caption": "UX/UI Designer | Frontend Developer",
+            "year": "Freshman",
+            "bio": "Passionate about creating intuitive user experiences through thoughtful design and development.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+            "resume": {
+                "name": "emily_brown_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "UI/UX Design Intern",
+                    "organization": "Design Studio",
+                    "date": "May 2024 - Aug 2024",
+                    "location": "Los Angeles, CA, USA",
+                    "info": [
+                        "Collaborated with cross-functional teams to conceptualize and design user interfaces.",
+                        "Conducted user research and usability testing to iterate and improve design solutions."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Mobile App Redesign",
+                    "date": "Nov 2023 - Jan 2024",
+                    "tech": "Figma · Adobe XD",
+                    "info": [
+                        "Redesigned the user interface of a mobile app to improve usability and aesthetics.",
+                        "Implemented user feedback to enhance the overall user experience."
+                    ]
+                }
+            ]
+        },
+        {
+			"id": 11,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Harsh Reddy",
+			"caption": "Ex-Software Developer @ TCS · MSCS @ UF",
+			"year": "Grad 1st year",
+			"bio": "Experienced system engineer adept at crafting seamless integrations and optimizing complex systems. Skilled in software development, with a focus on backend solutions and client-centric approaches. Passionate about leveraging technology to drive efficiency and solve real-world challenges.",
+			"skills": ["faHtml5", "faCss3", "faJs", "faPhp", "faNode"],
+			"resume": {
+				"name": "harsh_reddy_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 01:37:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "System Engineer",
+					"organization": "Tata Consultancy Services",
+					"date": "Jan 2022 - Jun 2022",
+					"location": "Bangalore, KA, India",
+					"info": [
+						"As the Lead Software Developer in my team, I spearheaded a time-critical project focused on establishing a seamless connection between NASDAQ.",
+						"System Integration: Developed and optimized a utility tool to seamlessly connect NASDAQ and the Reserve Bank of India for the Clearing Corporation of India Project.",
+						"Database Expertise: Utilized Oracle Toad and Postgres databases to support daily financial market transactions"
+					]
+				},
+
+				{
+					"designation": "Associate System Engineer",
+					"organization": "Infosys",
+					"date": "Aug 2020 - Dec 2021",
+					"location": "Pune, MH , India",
+					"info": [
+						"Spearheaded the creation of efficient and responsive backend deployments tailored to client demands.",
+						"Engineered and executed the deployment of production servers, driving optimization of legacy code. This resulted in a substantial 5-billion-dollar boost in trade processing efficiency across 1600 trades."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Admission Portal Web Application",
+					"date": "Jan 2019 - Apr 2019",
+					"tech": "SQL · REST APIs · Model-View-Controller (MVC) · JavaFX",
+					"info": [
+						"Designed a web application to facilitate the admission of students to universities. Portal devises a merit list of students and assigns seats based on that.",
+						"Achieved high throughput on SQL server by handling assignments for over 1000 student records, across 10 universities."
+					]
+				},
+				{
+					"name": "Gossip Algorithm",
+					"date": "Nov 2023 - Dec 2023",
+					"tech": ".NET Framework · F# · Akka",
+					"info": [
+						"The algorithm measures the convergence time of gossip in a distributed network of nodes under different topologies like full, line, 2d, and 3d."
+					]
+				}
+			]
+		},
+        {
+			"id": 12,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Emily Johnson",
+			"caption": "Web Developer Intern | CS @ UF",
+			"year": "Senior",
+			"bio": "I am Emily Johnson, a dedicated software engineer fueled by a passion for crafting innovative solutions. Currently pursuing a Bachelor's in Computer Science and hands-on experience in full-stack development and machine learning, I thrive in dynamic tech environments. My journey is defined by a commitment to leveraging my expertise to tackle complex challenges and drive impactful change.",
+			"skills": ["faPython", "faKaggle", "faAws", "faLinux", "faJira"],
+			"resume": {
+				"name": "emily_johnson_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 11:44:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Data Insights Co.",
+					"date": "Mar 2023 - Aug 2023",
+					"location": "Chicago, IL, USA",
+					"info": [
+						"Performed Semantic Analysis on Spark SQL statements & optimized average query execution runtime by 15%.",
+						"Engineered a holistic web interface, enabling users to perform semantic analysis with more than 8 parameters."
+					]
+				},
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Prometheus",
+					"date": "Mar 2022 - Aug 2022",
+					"location": "San Francisco, CA, USA",
+					"info": [
+						"Orchestrated technical architecture (technology stack, data flow, database, deployment, REST APIs) of a Packaging Service.",
+						"Developed 20+ RESTful APIs for logging, regenerating, and approving data packages with metadata across 4 departments."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Aptitude Test Quiz App",
+					"date": "Jan 2022 - Apr 2022",
+					"tech": "Java · Android Studio · SQLite",
+					"info": [
+						"Built a user-friendly Android application with wide range of test questions across 4 test domains, featuring 3 difficulty levels for each domain enabling users to take timed tests, analyze their scores, and track their progress over time"
+					]
+				},
+				{
+					"name": "Stock Prediction Model",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "Python · Scikit-learn · Machine Learning",
+					"info": [
+						"Created a highly configurable analytic dashboard for researchers working on correlation of sentiment analysis and data analytics to predict stock market trends for over 30 companies."
+					]
+				}
+			]
+		},
+        {
+			"id": 13,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Jessica Thompson",
+			"caption": "Ex-SWE Intern @GS | University of Florida",
+			"year": "Senior",
+			"bio": "As a senior-year student, I am deeply passionate about delving into the realms of Natural Language Processing (NLP) and Machine Learning (ML) to tackle complex real-world challenges. With a keen interest in leveraging NLP algorithms and ML models, I am eager to embark on projects that explore the intersection of language understanding and intelligent systems. Armed with a solid foundation in computer science and a drive for innovation, I am poised to contribute my skills and knowledge to meaningful projects that push the boundaries of technology.",
+			"skills": ["faWordpress", "faUbuntu", "faSass", "faGit", "faJava"],
+			"resume": {
+				"name": "jessica_CV",
+				"lastUpdate": "Last Updated: 04/12/2024 07:16:41 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Engineering Summer Analyst",
+					"organization": "GS Associates",
+					"date": "Jun 2023 - Aug 2023",
+					"location": "Dallas, TX, USA",
+					"info": [
+						"Finding systematic ways to identify and trace outliers in Liquidity Coverage Ratio data.",
+						"Evaluated statistical methods like Z-Score, Isolation Forest and Interquartile Range to find the best fit for financial data."
+					]
+				},
+				{
+					"designation": "Computer Vision Intern",
+					"organization": "Freelance",
+					"date": "Oct 2021 - May 2022",
+					"location": "Remote",
+					"info": [
+						"Video analytics for real time feed.",
+						"Implemented analytics code on docker containers.",
+						"Worked on hosting models on Triton Inference Server."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Sepsis project",
+					"date": "Feb 2021 - Oct 2021",
+					"tech": "NLP · SVM · Machine Learning · Deep Learning",
+					"info": [
+						"Trend analysis and link prediction on original dataset of around 110K entries.",
+						"Integrated Federated Healthcare Platform: Topic modelling on original dataset. Worked on NER and keyword based search."
+					]
+				},
+				{
+					"name": "Text to SQL",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "SQL · NLP · React",
+					"info": [
+						"Focused on developing a text-to-SQL conversion system using state-of-the-art Natural Language Processing (NLP) techniques",
+						"This involved extensive data preprocessing, including tokenization and semantic analysis, as well as model training using advanced neural network architectures"
+					]
+				}
+			]
+		},
+        {
+			"id": 14,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Nikhil Patil",
+			"caption": "Ex-Fractal | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": "Passionate about merging design thinking with software development. My journey in technology is driven by a deep commitment to understanding user challenges and crafting intuitive solutions that not only solve problems but also delight users. With a focus on customer-centric design, I aim to transform complex issues into simple, effective software experiences. ",
+			"skills": ["faGolang", "faPython", "faReact", "faLinux", "faJs"],
+			"resume": {
+				"name": "nikhil_patil_resume",
+				"lastUpdate": "Last Updated: 04/10/2024 12:33:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Data Engineer",
+					"organization": "Fractal",
+					"date": "Jun 2021 - Nov 2022",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Delivered a AI powered product for Unilever to identify non-profitable SKUs in their portfolio across markets like EU, US, NAMET, AFRICA, ASIA, and LATAM saving approximately $85M in expenses.",
+						"Performed ETL using Azure Databricks, Python, py-spark, SQL, and scheduled notebooks in Azure Data Factory. Used Azure Synapse Analytics for big data and data warehousing solutions."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Fractal",
+					"date": "Sep 2020 - Jun 2021",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Researched user pain points in the legacy systems and improved engagement by working on more than 10 user stories.",
+						"Transformed the legacy system to a microservice architecture using Spring Boot and AWS resulting in a 40% boost in system availability."
+					]
+				},
+				{
+					"designation": "Mobile Development Intern",
+					"organization": "Ugam",
+					"date": "May 2019 - Jul 2019",
+					"location": "Mumbai, MH, India",
+					"info": [
+						"Built dashboarding screens using React-Native and Charts.js that focused on customer engagement and communicating concise insights. ",
+						"Implemented multi-threaded modules in Java Spring Boot, to concurrently fetch and process 10+ performance indicators using REST APIs reducing the time to render data from 1.3 sec to 0.5 sec."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Greedy Algorithms and Dynamic Programming",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "Data Structures · Algorithms · Python · Java",
+					"info": [
+						"Programming projects to solve peculiar problems constrained by time and space complexities",
+						"Performing analysis and comparative study between optimal and sub-optimal approaches via charts and graphs."
+					]
+				},
+				{
+					"name": "Disease Prediction using Machine Learning",
+					"date": "Jun 2018 - Aug 2018",
+					"tech": "Python · Machine Learning · Deep Learning",
+					"info": [
+						"This Machine Learning project is used to predict diseases based on the symptoms given by the user.",
+						"It predicts using three different machine learning algorithms.It uses tkinter for GUI.",
+						"The model harnesses an extensive array of 95 symptoms to accurately predict outcomes across 41 distinct diseases."
+					]
+				}
+			]
+		},
+		{
+			"id": 15,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Supril Singh",
+			"caption": "Ex-Coinbase | University of Florida",
+			"year": "Grad • 2nd year",
+			"bio": " I'm a results-driven Graduate Student passionate about solving complex challenges with innovative solutions. Currently pursuing my Master's at the University of Florida, I've navigated dynamic roles as a Senior Software Engineer at Coinbase, seamlessly transitioning to Data Scientist. My diverse background bridges development and data science, empowering teams with actionable insights. Eager to merge academic excellence with real-world experiences, I thrive on continuous learning and collaboration. ",
+			"skills": ["faNode", "faPython", "faHtml5", "faReact", "faJs"],
+			"resume": {
+				"name": "supril_singh_resume",
+				"lastUpdate": "Last Updated: 04/05/2024 03:47:52 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Senior Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jan 2022 - Dec 2022",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Worked on building automated pipelines for extracting, processing, embedding text data from 2 major SDLC platforms.",
+						"Used Java and Python to develop REST APIs to access the ML models, maintained postman collection and documented the APIs.",
+						"Implemented ML models for 4 use cases: Text Clustering, Correlation, Summarization and Semantic Search Engine."
+					]
+				},
+				{
+					"designation": "Software Engineer",
+					"organization": "Coinbase",
+					"date": "Jul 2021 - Dec 2021",
+					"location": "Los Angeles, CA, USA",
+					"info": [
+						"Designed Microservice Architecture, Database Schemas and developed REST APIs, wireframes as well as UI for the application.",
+						"Automated Swagger UI generation upon detecting changes in the Git repository, resulting in a 95% reduction in manual efforts.",
+						"Migrated on-premises application to the Cloud and setup CI/CD Pipeline, leading to a 30% decrease in deployment time."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Chatwave: Full Stack Web Application",
+					"date": "Aug 2024 - Present",
+					"tech": "MERN Stack · AWS · Terraform",
+					"info": [
+						"Actively developing a MERN full-stack social media platform on AWS, incorporating best practices like global error handling and logging and caching.",
+						"Implementing features such as infinite scrolling and messaging for an enhanced user experience.",
+						"Implementing Infrastructure as Code using Terraform, facilitating efficient environment management, and orchestrated a robust CI/CD pipeline, integrating Terraform seamlessly for continuous deployment."
+					]
+				},
+				{
+					"name": "Comment Generation for Source Code: VS Code Extension",
+					"date": "May 2023 - Aug 2023",
+					"tech": "Node.js · Flask",
+					"info": [
+						"VS Code extension to streamline comment generation for code files, with support for 6 languages, to generate informative comments that summarize the functionality and purpose of the code.",
+						"Wrote the extension in Node, which triggers an API request to any one of the 6 models hosted in flask, to generate comment."
+					]
+				},
+				{
+					"name": "GatorLibrary: Efficient Library Management System",
+					"date": "Jan 2023 - Apr 2023",
+					"tech": "C++ · Java · Data Structures",
+					"info": [
+						"Designed and implemented a library management system in C++ utilizing Heaps and Red-Black Trees to ensure efficient book tracking and patron management.",
+						"Applied Object-Oriented Programming principles to structure the project, incorporating features such as book borrowing, returning, ranged searches, and flip count tracking."
+					]
+				}
+			]
+		},
+        {
+            "id": 16,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "male",
+            "name": "Bob Johnson",
+            "caption": "Data Scientist | Data Analyst",
+            "year": "Sophomore",
+            "bio": "Passionate about extracting insights from data and leveraging them to drive business decisions.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+                "resume": {
+                "name": "bob_johnson_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "Data Analyst Intern",
+                    "organization": "Data Insights Co.",
+                    "date": "Mar 2024 - Jun 2024",
+                    "location": "Chicago, IL, USA",
+                    "info": [
+                        "Analyzed large datasets to identify trends and patterns for actionable insights.",
+                        "Created interactive dashboards and reports to communicate findings to stakeholders."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Customer Segmentation",
+                    "date": "Aug 2023 - Oct 2023",
+                    "tech": "Python · Pandas · Scikit-learn",
+                    "info": [
+                        "Performed customer segmentation analysis to identify target customer groups.",
+                        "Utilized clustering algorithms to group customers based on purchasing behavior."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "profilePic":"https://xsgames.co/randomusers/assets/avatars/", 
+            "gender": "female",
+            "name": "Emily Brown",
+            "caption": "UX/UI Designer | Frontend Developer",
+            "year": "Freshman",
+            "bio": "Passionate about creating intuitive user experiences through thoughtful design and development.",
+            "skills": ["faHtml5", "faCss3","faReact","faNode","faJs","faGithub"],
+            "resume": {
+                "name": "emily_brown_resume",
+                "lastUpdate": "Last Updated: 04/17/2024 09:00:00 AM",
+                "url": "https://hci.stanford.edu/publications/2006/HowBodiesMatter-DIS2006.pdf"
+            },
+            "experience": [
+                {
+                    "designation": "UI/UX Design Intern",
+                    "organization": "Design Studio",
+                    "date": "May 2024 - Aug 2024",
+                    "location": "Los Angeles, CA, USA",
+                    "info": [
+                        "Collaborated with cross-functional teams to conceptualize and design user interfaces.",
+                        "Conducted user research and usability testing to iterate and improve design solutions."
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Mobile App Redesign",
+                    "date": "Nov 2023 - Jan 2024",
+                    "tech": "Figma · Adobe XD",
+                    "info": [
+                        "Redesigned the user interface of a mobile app to improve usability and aesthetics.",
+                        "Implemented user feedback to enhance the overall user experience."
+                    ]
+                }
+            ]
+        },
+        {
+			"id": 18,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "male",
+			"name": "Harsh Reddy",
+			"caption": "Ex-Software Developer @ TCS · MSCS @ UF",
+			"year": "Grad 1st year",
+			"bio": "Experienced system engineer adept at crafting seamless integrations and optimizing complex systems. Skilled in software development, with a focus on backend solutions and client-centric approaches. Passionate about leveraging technology to drive efficiency and solve real-world challenges.",
+			"skills": ["faHtml5", "faCss3", "faJs", "faPhp", "faNode"],
+			"resume": {
+				"name": "harsh_reddy_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 01:37:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "System Engineer",
+					"organization": "Tata Consultancy Services",
+					"date": "Jan 2022 - Jun 2022",
+					"location": "Bangalore, KA, India",
+					"info": [
+						"As the Lead Software Developer in my team, I spearheaded a time-critical project focused on establishing a seamless connection between NASDAQ.",
+						"System Integration: Developed and optimized a utility tool to seamlessly connect NASDAQ and the Reserve Bank of India for the Clearing Corporation of India Project.",
+						"Database Expertise: Utilized Oracle Toad and Postgres databases to support daily financial market transactions"
+					]
+				},
+
+				{
+					"designation": "Associate System Engineer",
+					"organization": "Infosys",
+					"date": "Aug 2020 - Dec 2021",
+					"location": "Pune, MH , India",
+					"info": [
+						"Spearheaded the creation of efficient and responsive backend deployments tailored to client demands.",
+						"Engineered and executed the deployment of production servers, driving optimization of legacy code. This resulted in a substantial 5-billion-dollar boost in trade processing efficiency across 1600 trades."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Admission Portal Web Application",
+					"date": "Jan 2019 - Apr 2019",
+					"tech": "SQL · REST APIs · Model-View-Controller (MVC) · JavaFX",
+					"info": [
+						"Designed a web application to facilitate the admission of students to universities. Portal devises a merit list of students and assigns seats based on that.",
+						"Achieved high throughput on SQL server by handling assignments for over 1000 student records, across 10 universities."
+					]
+				},
+				{
+					"name": "Gossip Algorithm",
+					"date": "Nov 2023 - Dec 2023",
+					"tech": ".NET Framework · F# · Akka",
+					"info": [
+						"The algorithm measures the convergence time of gossip in a distributed network of nodes under different topologies like full, line, 2d, and 3d."
+					]
+				}
+			]
+		},
+        {
+			"id": 19,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Emily Johnson",
+			"caption": "Web Developer Intern | CS @ UF",
+			"year": "Senior",
+			"bio": "I am Emily Johnson, a dedicated software engineer fueled by a passion for crafting innovative solutions. Currently pursuing a Bachelor's in Computer Science and hands-on experience in full-stack development and machine learning, I thrive in dynamic tech environments. My journey is defined by a commitment to leveraging my expertise to tackle complex challenges and drive impactful change.",
+			"skills": ["faPython", "faKaggle", "faAws", "faLinux", "faJira"],
+			"resume": {
+				"name": "emily_johnson_resume",
+				"lastUpdate": "Last Updated: 04/01/2024 11:44:00 AM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Data Insights Co.",
+					"date": "Mar 2023 - Aug 2023",
+					"location": "Chicago, IL, USA",
+					"info": [
+						"Performed Semantic Analysis on Spark SQL statements & optimized average query execution runtime by 15%.",
+						"Engineered a holistic web interface, enabling users to perform semantic analysis with more than 8 parameters."
+					]
+				},
+				{
+					"designation": "Software Engineer Intern",
+					"organization": "Prometheus",
+					"date": "Mar 2022 - Aug 2022",
+					"location": "San Francisco, CA, USA",
+					"info": [
+						"Orchestrated technical architecture (technology stack, data flow, database, deployment, REST APIs) of a Packaging Service.",
+						"Developed 20+ RESTful APIs for logging, regenerating, and approving data packages with metadata across 4 departments."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Aptitude Test Quiz App",
+					"date": "Jan 2022 - Apr 2022",
+					"tech": "Java · Android Studio · SQLite",
+					"info": [
+						"Built a user-friendly Android application with wide range of test questions across 4 test domains, featuring 3 difficulty levels for each domain enabling users to take timed tests, analyze their scores, and track their progress over time"
+					]
+				},
+				{
+					"name": "Stock Prediction Model",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "Python · Scikit-learn · Machine Learning",
+					"info": [
+						"Created a highly configurable analytic dashboard for researchers working on correlation of sentiment analysis and data analytics to predict stock market trends for over 30 companies."
+					]
+				}
+			]
+		},
+        {
+			"id": 20,
+			"profilePic": "https://xsgames.co/randomusers/assets/avatars/",
+			"gender": "female",
+			"name": "Jessica Thompson",
+			"caption": "Ex-SWE Intern @GS | University of Florida",
+			"year": "Senior",
+			"bio": "As a senior-year student, I am deeply passionate about delving into the realms of Natural Language Processing (NLP) and Machine Learning (ML) to tackle complex real-world challenges. With a keen interest in leveraging NLP algorithms and ML models, I am eager to embark on projects that explore the intersection of language understanding and intelligent systems. Armed with a solid foundation in computer science and a drive for innovation, I am poised to contribute my skills and knowledge to meaningful projects that push the boundaries of technology.",
+			"skills": ["faWordpress", "faUbuntu", "faSass", "faGit", "faJava"],
+			"resume": {
+				"name": "jessica_CV",
+				"lastUpdate": "Last Updated: 04/12/2024 07:16:41 PM",
+				"url": null
+			},
+			"experience": [
+				{
+					"designation": "Engineering Summer Analyst",
+					"organization": "GS Associates",
+					"date": "Jun 2023 - Aug 2023",
+					"location": "Dallas, TX, USA",
+					"info": [
+						"Finding systematic ways to identify and trace outliers in Liquidity Coverage Ratio data.",
+						"Evaluated statistical methods like Z-Score, Isolation Forest and Interquartile Range to find the best fit for financial data."
+					]
+				},
+				{
+					"designation": "Computer Vision Intern",
+					"organization": "Freelance",
+					"date": "Oct 2021 - May 2022",
+					"location": "Remote",
+					"info": [
+						"Video analytics for real time feed.",
+						"Implemented analytics code on docker containers.",
+						"Worked on hosting models on Triton Inference Server."
+					]
+				}
+			],
+			"projects": [
+				{
+					"name": "Sepsis project",
+					"date": "Feb 2021 - Oct 2021",
+					"tech": "NLP · SVM · Machine Learning · Deep Learning",
+					"info": [
+						"Trend analysis and link prediction on original dataset of around 110K entries.",
+						"Integrated Federated Healthcare Platform: Topic modelling on original dataset. Worked on NER and keyword based search."
+					]
+				},
+				{
+					"name": "Text to SQL",
+					"date": "Aug 2022 - Dec 2022",
+					"tech": "SQL · NLP · React",
+					"info": [
+						"Focused on developing a text-to-SQL conversion system using state-of-the-art Natural Language Processing (NLP) techniques",
+						"This involved extensive data preprocessing, including tokenization and semantic analysis, as well as model training using advanced neural network architectures"
+					]
+				}
+			]
+		}
+    ]
+}

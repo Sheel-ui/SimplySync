@@ -19,21 +19,22 @@
 }
 
 .pad {
-  padding: 10px;
+  padding: 15px 10px;
 }
 
 .medium-text {
-  font-size: 13px;
+  font-size: 12px;
   white-space: pre-wrap;
   hyphens: auto;
   text-align: justify;
-  word-spacing: -1px;
+  /* word-spacing: px; */
 }
 
 
 .resume-block{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .box {
@@ -58,7 +59,6 @@
 }
   
 .box3 {
-    /* display: flex; */
     grid-column: span 3;
     grid-row: span 2;
     overflow: auto;
@@ -87,8 +87,8 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .pt-10 {
@@ -105,11 +105,11 @@
 
 
 .pt-5 {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .pl-5 {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .stick {
@@ -127,11 +127,10 @@
   align-items: center; 
 }
 
-.top-skills {
+.skills {
     display: flex;
     justify-content: space-around;
     padding: 0px 10px;
-    font-size: 10px;
 }
 
 .skill-icon {
