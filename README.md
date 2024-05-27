@@ -1,9 +1,9 @@
 # SimplySync
 
-SimplySync is a platform designed to tackle the challenges students encounter when finding suitable teammates for university projects. Traditional methods of team formation often lead to mismatched skill sets and lack of cohesion among team members, resulting in inefficiencies and suboptimal project outcomes. In response to these issues, SimplySync aims to streamline and enhance the team formation process for students, enabling meaningful connections among like-minded collaborators.
+SimplySync is a platform designed to tackle the challenges students encounter when finding suitable teammates for university projects. Traditional methods of team formation often lead to mismatched skill sets and lack of cohesion among team members, resulting in inefficiencies and suboptimal project outcomes. In response to these issues, SimplySync aims to streamline and enhance the team formation process for students, enabling meaningful connections among like-minded collaborators. [Watch Demo](https://www.youtube.com/watch?v=bcNc20SyRCY)
 
 ## Research Study:
-Research study focuses on investigating the impact of different search interaction models on user experience, efficiency, and performance in the context of forming project teams for university courses. The study compares three search interfaces: list-based, card-based, and carousel-based, designed to help students find suitable teammates for collaborative projects.
+Research study focuses on investigating the impact of different search interaction models on user experience, efficiency, and performance in the context of forming project teams for university courses. The study compares three search interfaces: list-based, card-based, and carousel-based, designed to help students find suitable teammates for collaborative projects. 
 
 ## Search User Interfaces:
   *List View:*
@@ -18,7 +18,7 @@ Research study focuses on investigating the impact of different search interacti
   ![Search Page Wireframe](./wireframes/carousel-view.png)
 
 ## Demo: 
-You can access the complete demo [here](https://drive.google.com/file/d/18NIxru5YE-B8uP2l3li9aTtzWWfyOzBM/view?usp=drive_link).
+You can access the complete demo [here](https://www.youtube.com/watch?v=bcNc20SyRCY).
 
 ## Installation:
 1. Clone the repository: https://github.com/Sheel-ui/SimplySync.git
